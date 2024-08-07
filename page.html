@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <center>
+        <h1 style="color: white">Tic Tac Toe</h1>
+      </center>
+      <center>
+        <div class="boxer">
+          <video autoplay muted loop controls class="video-bg">
+            <source src="video 8.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="wrapper">
+            <div class="container">
+              <button class="button-option"></button>
+              <button class="button-option"></button>
+              <button class="button-option"></button>
+              <button class="button-option"></button>
+              <button class="button-option"></button>
+              <button class="button-option"></button>
+              <button class="button-option"></button>
+              <button class="button-option"></button>
+              <button class="button-option"></button>
+            </div>
+          </div>
+        </div>
+      </center>
+      <button id="restart">Restart</button>
+    </div>
+
+    <div class="popup hide">
+      <p id="message">Sample Message</p>
+      <button id="new-game">New Game</button>
+    </div>
+    <script src="page.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+  </body>
+</html>
